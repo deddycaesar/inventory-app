@@ -1,0 +1,86 @@
+{
+    "users": {
+        "admin": {
+            "password": "admin123",
+            "role": "admin"
+        },
+        "user": {
+            "password": "user123",
+            "role": "user"
+        }
+    },
+    "inventory": {
+        "ITM-0001": {
+            "name": "Baju",
+            "qty": 0
+        },
+        "ITM-0002": {
+            "name": "Buku",
+            "qty": 600
+        },
+        "ITM-0003": {
+            "name": "Baju",
+            "qty": -100
+        }
+    },
+    "pending_requests": [],
+    "history": [
+        {
+            "action": "ADD_ITEM",
+            "item": "Buku",
+            "qty": 0,
+            "timestamp": "2025-08-04 10:23:14"
+        },
+        {
+            "action": "APPROVE_IN",
+            "item": "Buku",
+            "qty": 500,
+            "user": "user",
+            "timestamp": "2025-08-04 10:24:19"
+        },
+        {
+            "action": "ADD_ITEM",
+            "item": "Baju",
+            "qty": 0,
+            "timestamp": "2025-08-04 10:31:54"
+        },
+        {
+            "action": "APPROVE_IN",
+            "item": "Buku",
+            "qty": 200,
+            "user": "user",
+            "timestamp": "2025-08-04 10:45:24"
+        },
+        {
+            "action": "APPROVE_OUT",
+            "item": "Baju",
+            "qty": 100,
+            "stock": 0,
+            "user": "user",
+            "event": "Pesta Rakyat",
+            "timestamp": "2025-08-04 11:33:41",
+            "approved": true
+        },
+        {
+            "action": "APPROVE_OUT",
+            "item": "Baju",
+            "qty": 100,
+            "stock": -100,
+            "user": "user",
+            "event": "Pesta Rakyat",
+            "timestamp": "2025-08-04 11:33:41",
+            "approved": true
+        },
+        {
+            "action": "APPROVE_OUT",
+            "item": "Buku",
+            "qty": 100,
+            "stock": 600,
+            "user": "user",
+            "event": "Pesta Rakyat",
+            "timestamp": "2025-08-04 11:33:41",
+            "approved": true
+        }
+    ],
+    "item_counter": 3
+}
